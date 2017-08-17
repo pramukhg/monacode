@@ -1,0 +1,31 @@
+{
+  "name": "monacode",
+  "version": "1.0.0",
+  "description": "Collaborative text editor built on Microsoft's monaco code editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramukhg/monacode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramukhg/monacode/issues"
+  },
+  "homepage": "https://github.com/pramukhg/monacode#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "http-server": "^0.10.0",
+    "logger": "0.0.1",
+    "monaco-editor": "^0.9.0",
+    "morgan": "^1.8.2",
+    "static-favicon": "^2.0.0-alpha"
+  }
+}
